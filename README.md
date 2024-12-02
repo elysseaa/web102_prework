@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://drive.google.com/file/d/1FqcGiT0izLKee3yRDgI6RfbabtQgma7w/view' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://drive.google.com/file/d/1FqcGiT0izLKee3yRDgI6RfbabtQgma7w/view
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Windows Clipchamp
