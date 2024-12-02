@@ -36,7 +36,7 @@ GIF created with Windows Clipchamp
 ## Notes
 
 I apologize for the low quality gif of the walkthrough.
-I didn't really have that many challenges with this project other than remembering the syntax of the JS functions I used.
+I didn't really have that many challenges with this project other than remembering the syntax of the JS functions I used, since it's been a while since I last used them. This also took longer than I expected to make.
 
 ## License
 
