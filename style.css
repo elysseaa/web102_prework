@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #ffffff;
 }
 
 #tentacles {
@@ -11,28 +15,51 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
-    padding: 1%;
+    background-color: #b8e2ef;
+    padding: 1rem 2rem;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    justify-content: space-between;
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#games {
+    scroll-behavior: smooth;
+    align-self: self-end;
+}
+
+.content {
+    margin: 2rem 4rem;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .stats-container {
     display: flex;
+    align-items: start;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #e6f9fd;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    box-shadow: 0 0 10px #abbac1;
 }
 
-#num-contributions, #total-raised, #num-games {
+#num-contributions,
+#total-raised,
+#num-games {
     font-size: 50px;
 }
 
@@ -55,11 +82,13 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    box-shadow: 0 0 10px #c2c2c2;
+    transition: ease-out 0.1s;
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #acacac;
 }
 
 #button-container {
@@ -72,4 +101,41 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: ease-out 0.1s;
+}
+
+button:hover {
+    background-color: #b8e2ef;
+}
+
+#our-games {
+    padding: 1%;
+    margin: 1%;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: #ffffff;
+    transition: ease-out 0.1s;
+}
+
+#our-games:hover {
+    background-color: #e6f9fd;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin: 1%;
+    align-items: center;
+}
+
+input {
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 0px 10px;
+    padding: 10px;
+    border-color: #acacac;
 }
